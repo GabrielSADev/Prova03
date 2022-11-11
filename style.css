@@ -73,7 +73,7 @@ body{
 #minitexto{
     position: relative;
     color: white;
-    left: 12%;
+    left: 13%;
     bottom: 35%;
     font-size: 0.83vw;
 }
@@ -81,9 +81,9 @@ body{
 #get{
     color: white;
     position: relative;
-    bottom: 33%;
+    bottom: 34%;
     font-size: 3vw;
-    left: 12%;
+    left: 13%;
 }
 
 #fundobranco{
@@ -189,4 +189,18 @@ footer{
         top: 35%;
         font-size: 5vw;
     }
+
+#get{
+    position: relative;
+    bottom: 10%;
+    font-size: 5vw;
+    left: 13%;
+}
+
+#minitexto{
+    position: relative;
+    left: 12%;
+    bottom: 12%;
+    font-size: 1.4vw;
+}
 }
