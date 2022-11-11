@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+header{
+    background-color: #043873;
+    margin: 0px;
+    height: 10%;
+    align-items: center;
+    font-family: 'Inter';
+    display: flex;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Inter';
+    overflow-x: hidden;
+}
+
+#titulo{
+    position: relative;
+    color: #FFFF;
+    left: 10.5%;
+    font-size: 1.4vw;
+}
+
+#fundoazul{
+    background-color: #043873;
+    height: 100vh;
+
+}
+
+#lista{
+    position: relative;
+    left: 18%;
+    color: white;
+}
+
+#ul01{
+    display: flex;
+    list-style: none;
+    font-size: 0.9vw;
+}
+
+#li01{
+    margin-left: 30%;
+}
+
+#icone{
+    width: 2%;
+    position: relative;
+    left: 10%;
+}
+
+.btn{
+    position: relative;
+    display: flex-end;
+    left: 41%;
+    background: #FFE492;
+    padding: 1% 2.2%;
+    border-radius: 08px;
+}
+
+.btn02{
+    position: relative;
+    top: 20%;
+    left: 42.5%;
+    background: #4F9CF9;
+    padding: 1% 0.5%;
+    border-radius: 08px;
+    color: white;
+}
+
+#minitexto{
+    position: relative;
+    color: white;
+    left: 12%;
+    bottom: 35%;
+    font-size: 0.83vw;
+}
+
+#get{
+    color: white;
+    position: relative;
+    bottom: 33%;
+    font-size: 3vw;
+    left: 12%;
+}
+
+#fundobranco{
+    background-color: white;
+    height: 100vh;
+}
+
+#redondo{
+    width: 35vw;
+    position: relative;
+    left: 12%;
+}
+
+#fios{
+    position: relative;
+    top: 17%;
+    width: 100vw;
+}
+
+#work{
+    position: relative;
+    left: 55%;
+    top: 35%;
+    font-size: 3.2vw;
+}
+
+#minitexto02{
+    position: relative;
+    left: 55%;
+    top: 32.5%;
+    font-size: 0.77vw; ;
+}
+
+footer{
+    background-color: #043873;
+    height: 8vh;
+}
+
+#ul02{
+    position: relative;
+    display: flex;
+    list-style: none;
+    font-size: 0.8vw;
+    color: white;
+}
+
+#li02{
+    position: relative;
+    margin-left: 4%;
+}
+
+
+#face{
+    position: relative;
+    width: 0.5%;
+    left: 80%;
+    
+}
+#tt{
+    position: relative;
+    width: 1%;
+    left: 82%;
+}
+#link{
+    position: relative;
+    width: 1%;
+    left: 84%;
+}
+
+@media screen and (max-width: 768px) {
+    footer{
+        height: 14vh;
+    }
+    #ul02{
+        font-size: 2vw;
+    }
+    #fundobranco{
+        background-color: white;
+        height: 100vh;
+        display: grid;
+    }
+    #redondo{
+        width: 30vw;
+        position: relative;
+        justify-content: center;
+        left: 12%;
+    }
+}
